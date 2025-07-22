@@ -13,10 +13,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js",
-    "build": "react-scripts build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "cd client && npm install && npm run build"
   }
-
 }
 
