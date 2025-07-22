@@ -4,7 +4,8 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
-    "mongoose": "^8.16.4"
+    "mongoose": "^8.16.4",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "^24.0.15",
@@ -12,6 +13,10 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "react-scripts build",
+    "start": "node server.js"
   }
+
 }
+
