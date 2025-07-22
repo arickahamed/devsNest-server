@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: 'http://localhost:3000',  
+  origin: 'https://devs-nest-client-hbnq.vercel.app',  
   credentials: true                 
 }));
 
@@ -32,7 +32,7 @@ mongoose.connect(mongoUri, {
 app.use("/api/tasks", taskRoutes);
 
 app.listen(8080, () => {
-  console.log("Server running on http://localhost:8080");
+  console.log("Server running on https://devs-nest-client-hbnq.vercel.app");
 });
 
 export default app;
